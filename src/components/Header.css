@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
+.header__icon {
+    object-fit: contain;
+    margin-left: 20px;
+    height: 100px;
+}
+
+.header__center {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: fit-content;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.header__center > input {
+    border: none;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
