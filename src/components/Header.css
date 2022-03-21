@@ -27,9 +27,15 @@
 
 .header__center > input {
     border: none;
+    padding: 10px;
+    width: 250px;
+    outline-width: 0;
 }
 
 .header__right {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
 }
