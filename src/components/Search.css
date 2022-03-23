@@ -26,3 +26,17 @@
     top: 397px;
     border: none;
 }
+
+.search > input:focus {
+    outline-width: 0;
+}
+
+.search > button {
+    position: absolute;
+    left: 0;
+    top: 449px;
+    text-transform: inherit;
+    background-color: #ff7779;
+    color: white;
+    width: 579px;
+}
