@@ -1,7 +1,7 @@
 import React from 'react';
-import './SearchResult.css';
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import StarIcon from "@material-ui/icons/Star";
+import './SearchResults.css';
 
 function SearchResult({
     img,
