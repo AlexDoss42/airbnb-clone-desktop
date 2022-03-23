@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from '@material-ui/core';
 import './Banner.css';
+import Search from './Search.js';
 
 function Banner() {
     const [showSearch, setShowSearch] = useState(false);
@@ -8,7 +9,7 @@ function Banner() {
   return (
     <div className='banner'>
         <div className='banner__search'>
-            {showSearch && <h1>Search Dates</h1>}
+            {showSearch && <Search />}
             <Button onClick={() => setShowSearch(!showSearch)} className='banner__searchButton' variant='outlined'>Search Dates</Button>
         </div>
         <div className='banner__info'>
